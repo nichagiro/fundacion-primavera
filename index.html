@@ -264,6 +264,8 @@
                 </div>
                 <div class="layout_padding col-lg-6 col-md-6 col-sm-12">
 				    <div class="contact_form">
+                        <div id="success" class="alert alert-success" style="display: none;" role="alert">Los datos fueron enviados</div>
+                        <div id="danger" class="alert alert-danger" style="display: none;" role="alert">Faltan datos</div>
 					    <form id="formy">
                             <fieldset>
                                 <div class="full field">
@@ -273,13 +275,13 @@
                                     <input type="email" placeholder="Correo:" name="email" />
                                 </div>
                                 <div class="full field">
-                                    <input type="number" placeholder="Telefono:" name="phone" />
+                                    <input type="number" placeholder="Telefono:" name="phone"/>
                                 </div>
                                 <div class="full field">
-                                    <textarea placeholder="Mensaje:"></textarea>
+                                    <textarea name="msg" placeholder="Mensaje:"></textarea>
                                 </div>
                                 <div class="full field">
-                                    <div class="center"><button>Enviar</button></div>
+                                    <div class="center"><button type="submit">Enviar</button></div>
                                 </div>
                             </fieldset>
 						</form>
@@ -374,6 +376,7 @@
     <script defer src="js/jquery.pogo-slider.min.js"></script>
     <script defer src="js/custom.js"></script>
     <script defer src="js/bootstrap.min.js"></script>
+    <script src="js/form.js"></script>
 
 </body>
 
