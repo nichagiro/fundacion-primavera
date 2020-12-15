@@ -502,7 +502,7 @@ a.navbar-brand img {
 }
 
 .theme_color {
-	color: #d4a81e;
+	color: white;
 }
 
 
@@ -614,7 +614,7 @@ a.navbar-brand img {
 	max-width: 100%;
 }
 
-.slide_text h1, h2 {
+.slide_text h1, .slide_text h2 {
     font-size: 55px;
     font-weight: 600;
     padding: 0;
@@ -623,6 +623,15 @@ a.navbar-brand img {
 	color: #fff;
 	text-shadow: 3px 3px 3px black;
 }
+
+.whatsapp{
+	z-index: 1000;
+	left: 20px;
+	bottom: 10px;
+	position: fixed;	
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
 
 
 .slide_text h3 span {
@@ -651,7 +660,7 @@ a.navbar-brand img {
 .contact_bt {
     width: 180px;
     height: 50px;
-    background: #d4a81e;
+    background: #025329;
     color: #fff;
     float: left;
     line-height: 50px;
@@ -800,7 +809,6 @@ span.icon img {
 	margin-bottom: 30px;
 }
 
-.about-m {}
 
 .about-img {
 	padding: 30px 0px;
@@ -872,20 +880,19 @@ span.icon img {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
     overflow: hidden;
-    background: #095a83;
+    background: #025329;
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     color: #fff;
-    float: left;
     width: 165px;
     height: 45px;
     text-align: center;
     line-height: 45px;
-    margin-top: 20px;
     font-weight: 600;
-    text-indent: -10px;
+	text-indent: -10px;
+	padding-top: 5px;
 }
 
 .hvr-radial-out:after {
@@ -901,25 +908,6 @@ span.icon img {
     transform: skew(-20deg);
 }
 
-.hvr-radial-out::before {
-	content: "";
-	position: absolute;
-	z-index: -1;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: #070500;
-	border-radius: 100%;
-	-webkit-transform: scale(0);
-	transform: scale(0);
-	-webkit-transition-property: transform;
-	transition-property: transform;
-	-webkit-transition-duration: 0.3s;
-	transition-duration: 0.3s;
-	-webkit-transition-timing-function: ease-out;
-	transition-timing-function: ease-out;
-}
 
 .hvr-radial-out:hover::before,
 .hvr-radial-out:focus::before,
@@ -1684,7 +1672,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .footer-box {
-    background: #0b1c2c;
+    background: #025329;
     padding: 50px 0;
 }
 
@@ -1844,7 +1832,7 @@ p {
 }
 
 .heading_main h2 span {
-	color: #095a83;
+	color: #029147;
 }
 
 .heading_main p.large {
@@ -1996,8 +1984,28 @@ ul.social_icon li {
 
 }
 
+.img-slider{
+	background-image: linear-gradient(
+		rgba(0, 255, 34, 0.795), 
+		rgba(0, 255, 34, 0.200)
+	),
+	url('../images/principal.webp');
+	background-position: center;
+	background-size: cover;	  
+}
+
+.img-slider2{
+	background-image: linear-gradient(
+		rgba(0, 255, 34, 0.795), 
+		rgba(0, 255, 34, 0.200)
+	),
+	url('../images/fondo2.webp');
+	background-position: center;
+	background-size: cover;	  
+}
+
 .footer_bottom {
-    background: #095a83;
+    background: #029147	;
     padding: 15px 0;
 }
 
@@ -2229,7 +2237,7 @@ section.inner_banner h3 {
 }
 
 .contact_form button {
-    background: #e0af14;
+    background: #025329;
     border: none;
     color: #fff;
     width: 200px;

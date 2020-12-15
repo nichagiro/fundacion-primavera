@@ -1,14 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-<!-- Basic -->
+<html lang="es">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
     <!-- Site Metas -->
     <title>Fundacion Primavera | Promocion y prevencion de la salud | Salud</title>
     <meta charset="utf-8">
@@ -36,8 +29,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css" />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css" />
+
 </head>
 
 <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
@@ -48,7 +40,6 @@
             <img src="images/loader.gif" alt="loading" />
         </div>
     </div>
-    <!-- end loader -->
     <!-- END LOADER -->
 
     <!-- Start header MENU PRINCIPAL-->
@@ -56,7 +47,7 @@
         <nav class="navbar header-nav navbar-expand-lg">
             <div class="container-fluid">
                 <!-- <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="image"></a> -->
-                <a class="navbar-brand" href="index.html">FUNDACIÓN PRIMAVERA</a>
+                <a class="navbar-brand" href="#inicio">FUNDACIÓN PRIMAVERA</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
                     <span></span>
                     <span></span>
@@ -68,6 +59,7 @@
                         <li><a class="nav-link" href="#acitividades">Actividades</a></li>
                         <li><a class="nav-link" href="#fundacion">Fundación</a></li>
                         <li><a class="nav-link" href="#contacto">Contacto</a></li>
+                        <li><a class="nav-link" href="#">DONAR</a></li>
                     </ul>
                 </div>
             </div>
@@ -80,7 +72,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="pogoSlider" id="js-main-slider">
-                    <div class="pogoSlider-slide" style="background-image:url(images/principal.webp);">
+                    <div class="pogoSlider-slide img-slider">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
@@ -91,21 +83,21 @@
                                         </h1>
                                         <br>
                                         <div class="full center">
-                                            <a class="contact_bt" href="courses.html">DONAR</a>
+                                            <a class="contact_bt" href="#">DONAR</a>
 										</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="pogoSlider-slide" style="background-image:url(images/fondo2.webp);">
+                    <div class="pogoSlider-slide img-slider2">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="slide_text">
                                         <h2><span span class="theme_color">Promoción y prevención de la</span><br><br>SALUD</h1><br><br>
                                         <div class="full center">
-										    <a class="contact_bt" href="courses.html">DONAR</a>
+										    <a class="contact_bt" href="#">DONAR</a>
 										</div>
                                     </div>
                                 </div>
@@ -123,24 +115,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="tab_menu d-flex justify-content-between align-items-center">
+                    <div class="tab_menu d-flex justify-content-center align-items-center">
                         <div>
-                            <a href="#">
-                                <img src="https://img.icons8.com/cute-clipart/64/000000/phone-not-being-used.png"/>   
-                                <span>(+57 2) 371 8941</span>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#">
-                                <img src="https://img.icons8.com/fluent/48/000000/important-mail.png"/>
-                                <span>administracion@fundacionprimavera.org</span>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#">
-                                <img src="https://img.icons8.com/cute-clipart/64/000000/cell-phone.png"/>        
-                                <span>+57 317 554 3245</span>
-                            </a>
+                            <h3 class="font-weight-bold">Fundación para la Prevención, Rehabilitación y Educación en Salud</h3>
                         </div>
                     </div>
                 </div>
@@ -277,7 +254,7 @@
     </div>
 	<!-- end section -->
 	<!-- section -->
-    <div class="section contact_section" style="background:#12385b;">
+    <div class="section contact_section" style="background:#029147;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
@@ -351,16 +328,23 @@
                     <div class="footer_blog full white_fonts">
                         <h3>Contact us</h3>
                         <ul class="full">
-                        <li><img src="images/i5.png"><span>Cra 25 A # 14 c 47, <br>Colseguros ande (santa elena) - Cali</span></li>
-                        <li><img src="images/i6.png"><span> administracion@fundacionprimavera.org
-                        </span></li>
-                        <li><img src="images/i7.png"><span>+2 371 8941</span></li>
+                        <li>
+                            <img alt="ubicacion" src="data:image/png;base64,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"/>                            <span>Cra 25 A # 14 c 47, <br>Colseguros ande (santa elena) - Cali</span>
+                        </li>
+                        <li>
+                            <img alt="email" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAFWElEQVRoge2YXYhUZRjHf887Mzu7o7suWUSmoasoFNWFEAgimF1kIUGElKiQlclC1EUfaDfahRF5E8FWEkJ2URDRKhYhVmK5hR/ZTd0EQR9S0pq7be7szJzzPl2cc2bOzHnP7Mx+eOM+cOA557xz3v/v//7fM8PAXM3V9V0yGw/9CnoF9gFbAXzD+8aydz2MzPRcMw5wEjZZYQBYHF1TEYBLIvrivT6HZ3K+GQM4DouywpvAwwho7NEam0WFz4yn/Rvg15mYd9oAe8GsgyfVyAGgO3qqxsbEAUK4cZRXRjx7YDP405l/WgBfwt2akYMo9yRF1iq4J8l7wg/W2p0bK5ydqoYpAQxBV9GYl1R0D5Criaw9VWOPT4ULeg9hoLNoX14P/7WrpW2ALzJsVGQAWOqIRlKkW3TQhMPDexcFntlY9D9pR0/LACfgZs2Z11HdlhCSKtItOj4uBgACFo5h/V2bilxsRVdmsgEKsjbDdjJyBGGNCiACIsHrUage6uyTY+PjHGNXYsyOLZ2ZiVUle/Zkgxdt1ed5VhzPyYnjOaNXhk7rtarLQ9/o0Z6sHu3Jfj04v+P2ZhqdEToHuX+yZjfCHoS8AvcVy1M2Yip17IZOQFAoIbr/0oj36tNQaRyXdX34ct68hfIEUM2stXZWBTdW+O2NQh6RfTf15pYwUnmqcZwTQOGx6tqEAL5/rQGqWqK9sgVoDWBB7pbCmD+Mr14VoFIpzZpYV9UAhKxCwcsUHAlyA3RIJwuzt1K0Y4wxgqqlVJqYVcGNpSIYhYJnyHsGL+Vd5AQISug0PeToYsyOXFsAVbqsoVA2WBv4nvQ+qCYAoCiiWbplIX9te5bu3f3kViydecGx8n78iSv7X6NQClz3AA/FSxnvfI2e716uSgBgVan2GUP+kQeY178VmVeYUeE6PMz42+9ydfAonm9D4aH4EGTzRDGhNxXAoqiGwgkhNOhZ2Etn/zY67l8XfHtOpzwP7+NBJg4eojI+nnC9dg5bWwU4171cE+7HexRVRe5aRf65xzF9t01Ju56/gH1jAO+33+uEVmKuVw+FHaWWAfrUpriv4cpEPUZg/Rpyux6Fnu6WhMsfF8m8cwh75nyDy/WuV2LiPWCXAyDtiyySF5xrrA/vVXvfoidOU/nuAmbLg5hNG1JjJVfHyX00iDnyKZ7nNbicjIwHVGLnzme6Lp6Z36du9xtWAsJoKTYC7VsMOzfDymW1SVTpODVE1+EPYfTfqtCqwymRqQdRni9PtBahM/OXqSUt+/X7QKnFKYqdCti1q9HtD5H7e5ju9z4g9/MvDnGacDkpvga32wGQGqFaUGJxigTGIxT1WvuMqsKps/Dt9+T9IhmpUG4irJr3BIjWnbuqyR5ozH7DPlAHRDRSw+sVj1FyjGHolAqITc16/cZ1R6plgObuxyFr7kf34qun4U0Pw5h2IOIh4uGjKXEJxKdFqmWAaGK3+xrGpbn7OICszaAIvvGpiD9pZBpB2gKo2wcJ92P7QB0QDSbUXxfEZsiooWQ8yqKTvoUqIVzLAPGJW3VfA8pU9+s2OcHrr8tmMeJzBZ+ypERKw1g5hYJx6o9N7Ha/ypmAaO5+2MdAc2q40WYpqKGiUCZ2KJRRyrT5czoRoUicxvppuN8YM4AFVsiL4U9RxtHEfkh7CzlXwDVxTXjYO9yP+lbdb4xph4UlfnCIxlYh7FsGcE5Q535tXNx952aexH2XOT3AHVZYZIO/rqNItQMw2tz9Jj/u2nQ/ba8JymKF1VbpDVZhtGUA1L6gMBKfOAERnU3T/cn2WifKndbqUvyDTq1zNVdzNVdzdV3X/3wAvdjjOBEKAAAAAElFTkSuQmCC">
+                            <span> administracion@fundacionprimavera.org</span>
+                        </li>
+                        <li>
+                            <img alt="telefono" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAFBklEQVRoge2ZbWxTZRTH/+feu65la8u2bi3dnC4jAlm0myxbuynExAgaETVkJhoHGGAJMSRKJEYMQpT4hsIHZsIMISMLMVUT0Q9LNAQjWbvC2Au6BBKCicm6OTaFzW2sae/xA+u8K/f23sEtvmS/T+05p+f+/31un+e5T4EFFljgPw0ZrgwGxSVjk/UArSdgHRgeAu0b2Nr4cQb16ZLWwH2nT1tjl39dA2A9gHUAXCklLLNcO7Rt87lMCdRD0kr4w31Py8yHhm0jZbGpSa0yEkg4AGB1RtQZQFAL1oZ69zDzSQLKcvNTv/RbWFXc0vqU+dKMoWoAwM7ki0XOxRCzstI2YcL7CAZFM4UZRcMADcy+IkJufoFenwrv2NRm82QZR8OA3Kx8l5vnAglagzUDY5/7+PEcs4QZRVVV3JI4BvDobJEoIjdPdxS80jS/ZqY4I6gaOF9dPQnQp8qYw+WGoDMKDLye39bmMFGfLpqKRKbDAG7MFkoi7K4ivX526wQvNUmbITQNhOp9wwBalTF7QSEkiyVNO+6ODpZcMEucEdLeEwLwDoDZVYwEAYs9xVrlXZAta7D30biJ+nRJayBcVzlAzIeUMZvdAZvDmVLJZ6zyjceiTS+MmK5QB525EWBx+gMAg8pY3pISCNLMusX4DvL02itNTdczolAHXQMRv3+MCK8qY6IkId9bCgCjMTG+IdrUpLlZyjSGt9M1od52AtYqY9eGolcuPfdkufmyjKM7AklEYAuAP5Qxp9tTWhP5qdp0VfPAsIFwXeUAGDuUMSJBQiL+eU0kortMZwrDBgAgUl/ZRqATyhiBypGwflXR359ugcgY8zIAAJM52AagXxkj8Gr79XgLmI0/oprEvA1c8PkmBAgbAMyZNhm8sbaz7yPTlBlk3gYAIFz34EUifgZAbE6CsbM21LvHDGFGuaMh93f0bGWiltQ4E+09G/DtM9Jj5ZEjWUNkqcjm2C+3sxje8T3rD/fsZqZ3VRof7gz4doCItT5b3NpawDF8D6AKwDgxfxi3Cgd/a2ycMHp9U350taHe9wC8cWtzah13Stv6Kypiqbn8tjaHdSpxCkDqOnKVGfsHo6XNRjaGps0a/o6evUz0tkqqwxKXnz2z6qGryUDJJ0Eb26faOf1xzEUi2jOwpfGLdNc1ddqrCfe9Scz7VVKX40TPnw/4ul1Hj9otCelLEB430pNBPzAndmkdnpk+b8/8sJsBzDmLYZbjY8OD0bGRETuAvHm2ZRDvim7ZdCA1cVvTaDo666s+k0FPALimjBMJktNdXOq65948UdQ8ENSCwMJbagnTDQDAuTrfqYRMfgJ+Ts3ZHIvhXroMNvs8n/2Jh9XCGTEAAF0P+y5N5pAfhLbUnChJcJWWwVVapvOM/TcMfKsWz5gB4Oa2IxKofInBLyLllgJuPp56ypfDWeTRPbIBC1+rhTNqIMnZuqoTEOgBgNtTcyQQHIVueO5fAXtBIUhQnVeuDjqzQ2qJu7579Id7G5hxEIBXLZ+Ix/Hn7yMYHx0By4lk+Fh068aX1ervyggo6QxUBiXZupyZ9kNxZJNElCQ4izzwLluBPG8JsrKtAHBSq99dHwElgVBvcYJ5NxFtAmBTq2GmKxMDl1b0NzTcsh0B/mEDSR75sbswJgmvgLEdNPdvLCJa3xnwfaP12X+FgSQru7oWSTFxM0DbAXiJ+EBnoEpta7LAAgv8X/gLaa9vNnZGtT4AAAAASUVORK5CYII="/>
+                            <span> +2 371 8941 </span>
+                        </li>
                         </ul>
                     </div>
                 </div>	 
             
             </div>
-		
+            <a href="https://icons8.com/icon/uzeKRJIGwbBY/maps" style="display: none;"> iconos gratis </a>
         </div>
     </footer>
     <!-- End Footer -->
@@ -375,124 +359,22 @@
         </div>  
     </div>
 
-    <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
+    <a href="#" id="scroll-to-top" class="hvr-radial-out"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+        width="26" height="26"
+        viewBox="0 0 172 172"
+        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M86,70.08173l57.98798,56.79928c2.58413,2.53245 6.71875,2.50661 9.30288,-0.05169l10.15565,-10.15565c2.58413,-2.60997 2.58413,-6.79628 -0.02584,-9.38041l-72.74339,-72.27824c-1.29206,-1.29207 -2.97175,-1.9381 -4.67728,-1.9381c-1.70553,0 -3.38522,0.64603 -4.67728,1.9381l-72.74339,72.27824c-2.60997,2.58413 -2.60997,6.77044 -0.02584,9.38041l10.15565,10.15565c2.58413,2.55829 6.71875,2.58413 9.30288,0.05169z"></path></g></g></svg></a>
+    
+    <a href="https://wa.me/+573175543245" target="_blank" class="whatsapp">
+        <img src="data:image/png;base64,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"/>   
+    </a>
 
     <!-- ALL JS FILES -->
-    <script src="js/jquery.min.js"></script>
-	<script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- ALL PLUGINS -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.pogo-slider.min.js"></script>
-    <script src="js/slider-index.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/form-validator.min.js"></script>
-    <script src="js/contact-form-script.js"></script>
-    <script src="js/isotope.min.js"></script>
-    <script src="js/images-loded.min.js"></script>
-    <script src="js/custom.js"></script>
-	<script>
-	/* counter js */
+    <script defer src="js/jquery.min.js"></script>
+    <script defer src="js/slider-index.js"></script>
+    <script defer src="js/jquery.pogo-slider.min.js"></script>
+    <script defer src="js/custom.js"></script>
+    <script defer src="js/bootstrap.min.js"></script>
 
-(function ($) {
-	$.fn.countTo = function (options) {
-		options = options || {};
-		
-		return $(this).each(function () {
-			// set options for current element
-			var settings = $.extend({}, $.fn.countTo.defaults, {
-				from:            $(this).data('from'),
-				to:              $(this).data('to'),
-				speed:           $(this).data('speed'),
-				refreshInterval: $(this).data('refresh-interval'),
-				decimals:        $(this).data('decimals')
-			}, options);
-			
-			// how many times to update the value, and how much to increment the value on each update
-			var loops = Math.ceil(settings.speed / settings.refreshInterval),
-				increment = (settings.to - settings.from) / loops;
-			
-			// references & variables that will change with each update
-			var self = this,
-				$self = $(this),
-				loopCount = 0,
-				value = settings.from,
-				data = $self.data('countTo') || {};
-			
-			$self.data('countTo', data);
-			
-			// if an existing interval can be found, clear it first
-			if (data.interval) {
-				clearInterval(data.interval);
-			}
-			data.interval = setInterval(updateTimer, settings.refreshInterval);
-			
-			// initialize the element with the starting value
-			render(value);
-			
-			function updateTimer() {
-				value += increment;
-				loopCount++;
-				
-				render(value);
-				
-				if (typeof(settings.onUpdate) == 'function') {
-					settings.onUpdate.call(self, value);
-				}
-				
-				if (loopCount >= loops) {
-					// remove the interval
-					$self.removeData('countTo');
-					clearInterval(data.interval);
-					value = settings.to;
-					
-					if (typeof(settings.onComplete) == 'function') {
-						settings.onComplete.call(self, value);
-					}
-				}
-			}
-			
-			function render(value) {
-				var formattedValue = settings.formatter.call(self, value, settings);
-				$self.html(formattedValue);
-			}
-		});
-	};
-	
-	$.fn.countTo.defaults = {
-		from: 0,               // the number the element should start at
-		to: 0,                 // the number the element should end at
-		speed: 1000,           // how long it should take to count between the target numbers
-		refreshInterval: 100,  // how often the element should be updated
-		decimals: 0,           // the number of decimal places to show
-		formatter: formatter,  // handler for formatting the value before rendering
-		onUpdate: null,        // callback method for every time the element is updated
-		onComplete: null       // callback method for when the element finishes updating
-	};
-	
-	function formatter(value, settings) {
-		return value.toFixed(settings.decimals);
-	}
-}(jQuery));
-
-jQuery(function ($) {
-  // custom formatting example
-  $('.count-number').data('countToOptions', {
-	formatter: function (value, options) {
-	  return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
-	}
-  });
-  
-  // start all the timers
-  $('.timer').each(count);  
-  
-  function count(options) {
-	var $this = $(this);
-	options = $.extend({}, options || {}, $this.data('countToOptions') || {});
-	$this.countTo(options);
-  }
-});
-	</script>
 </body>
 
 </html>
